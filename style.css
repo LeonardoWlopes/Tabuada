@@ -1,0 +1,60 @@
+body{
+    color:white;
+    background:cornflowerblue;
+    font: bolder 20px arial;
+}
+input#enviarnumero{
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+button#botaogerar{
+    margin-left: 10px;
+    background: cornflowerblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.800);
+}
+button#botaogerar:hover{
+    background: rgb(65, 125, 236);
+}
+button#botaogerar:active{
+    transform:translatey(4px);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.800);
+}
+select{
+    border: 2px solid cornflowerblue;
+    border-radius:5px;
+    padding: auto 50px;
+}
+header{ 
+    padding: 0 10px;
+    border-radius: 5px;
+    width: min-content ;
+    margin: auto;
+    color: black;
+    background-color: white;
+    align-items: center;   
+    text-align: center;
+}
+section{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 500px;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+footer{
+    
+    font: italic 10px ;
+    text-align: center;
+    font-style: italic;
+}
